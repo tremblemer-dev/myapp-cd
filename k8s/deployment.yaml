@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: python:3.11-slim
-        command: ["python", "-m", "http.server", "8080"]
+        image: ghcr.io/tremblemer-dev/myapp:latest
         ports:
         - containerPort: 8080
 ---
